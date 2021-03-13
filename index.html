@@ -1,383 +1,350 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Portfolio</title>
-	<link rel="icon" href="img/icon.png" type="image/x-icon">
-	<link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+	<title>Diamond Palace Jewellery</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/style.css">
+  	<link rel="stylesheet" type="text/css" href="common/css/zoomslider.css" />
+	<link rel="stylesheet" type="text/css" href="common/css/slick.css"/>
+  	<link rel="stylesheet" type="text/css" href="common/css/slick-theme.css"/>
+  	<link rel="stylesheet" type="text/css" href="common/css/module.css"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-
-	
-	<div id="portfolio">
-		<!--------------------------HEADER SEC-------------------------- -->
-		<header class="header" id="navbar">
-
-			<a href="#">Portfolio</a>
-            <nav class="nav" id="nav-menu">
-                <div class="nav_content">
-                    <a href="" class="nav_profile">
-                        <div class="nav_img">
-                            <img src="img/kmt_img.png" alt="profile image">
-                        </div>
-                        <div class="nav_name">
-                            <span class="name_list">Kyaw</span>
-                            <span class="name_list">Min Tun</span>
-                        </div>
-					</a><!--end of nav_profile class-->
-                    <div class="nav_menu">
-                        <ul class="nav_list">
-                            <li class="nav_item"><a href="#top" class="nav_link active">HOME</a></li>
-                            <li class="nav_item"><a href="#about" class="nav_link">ABOUT</a></li>
-                            <li class="nav_item"><a href="#skill" class="nav_link">SKILLS</a></li>
-							<li class="nav_item"><a href="#education" class="nav_link">EDUCATION</a></li>
-							<li class="nav_item"><a href="#project" class="nav_link">PROJECTS</a></li>
-                            <li class="nav_item"><a href="#contact" class="nav_link">CONTACT</a></li>
-                        </ul><!--end of nav_list class-->
-                    </div><!--end of nav_menu class-->
-                </div><!--end of nav_content class-->
-			</nav><!--end of nav class-->
-			<i class='bx bx-menu header_toggle' id="header-toggle"></i>
-			<!-- <i class='fa fa-bars header_toggle' id="header-toggle"></i> -->
-		</header>
-
-		<!--------------------------MV SEC-------------------------- -->
-		<div class="mv_sec" id="top">
-			<div class="my_name">
-				<h1>
-					Hi!<br/>I'm 
-					<span class="typing"></span>
-				</h1>
-				<p>Welcome to my portfolio web site.</p>
-				<div class="social">
-					<a href="https://web.facebook.com/profile.php?id=100012289154309"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-					<a href="https://twitter.com/mr_kyawmin"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-					<a href="https://www.linkedin.com/in/mr-kyawmin-tun-718a631a4/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-					<a href="https://github.com/MgKyawMinTun"><i class="fa fa-github" aria-hidden="true"></i></a>
-				</div><!-- end of social class -->
-				<button class="btn btn1" id="download">Download CV&nbsp;&nbsp;<i class="fa fa-download" aria-hidden="true"></i></button>
-			</div><!-- end of my_name class -->
-			<div class="profile">
-				<div class="image"></div>
-			</div><!-- end of profile class -->
-		</div><!-- end of mv_sec class -->
-
-		<!--------------------------MY SELF SEC-------------------------- -->
-		<div class="about_sec" id="about">
-			<div class="inner">
-				<p class="title">About me</p>
-				<div class="my_self">
-					<div class="image">	
-						<img src="img/img1.jpg" alt="">
-						<!-- <span class="box"></span>		 -->
-					</div><!-- end of image class -->
-					<div class="content">	
-						<p class="title">Web Design\Frontend Developer</p>	
-						<p>I'm a final year IT engineering student at Technological University Mawlamyine. I have serious passion in the role of web development. I enjoy working in a team and learning new skills. I'm currently studying programming languages and creating new web design projects.</p>	
-						<div class="progress_box">
-							<div class="pg_bar">
-								<div class="info">
-									<span>UI/UX Design</span>
-								</div><!-- end of info class -->
-								<div class="progress_line design">
-									<span></span>
-								</div>
-							</div><!-- end of pg_bar class -->
-							<div class="pg_bar">
-								<div class="info">
-									<span>UI Development</span>
-								</div><!-- end of info class -->
-								<div class="progress_line development">
-									<span></span>
-								</div>
-							</div><!-- end of pg_bar class -->
-							<div class="pg_bar">
-								<div class="info">
-									<span>Photoshop</span>
-								</div><!-- end of info class -->
-								<div class="progress_line photoshop">
-									<span></span>
-								</div>
-							</div><!-- end of pg_bar class -->
-							<div class="pg_bar">
-								<div class="info">
-									<span>Backend Development</span>
-								</div><!-- end of info class -->
-								<div class="progress_line web-design">
-									<span></span>
-								</div>
-							</div><!-- end of pg_bar class -->
-						</div><!-- end of progress_box class -->
-					</div><!-- end of content class -->
-				</div><!-- end of my_self class -->
-				
-			</div><!-- end of inner class -->
-		</div><!-- end of about_sec class -->
-
-		<!--------------------------MYSKILL SEC-------------------------- -->
-		<div class="skill_sec" id="skill">
-			<p class="title">My Skills</p>
-			<div class="scroll_wrapper">
-				<div class="skill_item">
-					<img src="img/web_design.png" alt="design icon">
-					<p>Web Design</p>
-					<p>I can draw a website design using Adobe Photoshop tool. I like to draw  simple content structure and clean design patterns. When designing a website, I can design for desktop size, laptop size, tablet size as well as mobile size.</p>
-					<ul>
-						<li>Design Tools</li>
-						<li>Photoshop</li>
-					</ul>
-				</div>
-				<div class="skill_item">
-					<img src="img/ui_development.png" alt="UI icon">
-					<p>Frontend Development</p>
-					<p>In frontend UI development, I get HTML5, CSS3, JavaScript, JQuery and BootStrap. I currently use tools such as Sublime Text, Visual Studio Code, Brackets to develop UIs.</p>
-					<div class="dev_info">
-						<ul>
-							<li>Frontend</li>
-							<li>HTML</li>
-							<li>CSS</li>
-							<li>JavaScript</li>
-							<li>JQuery</li>
-							<li>BootStrap</li>
-
-						</ul>
-						<ul>
-							<li>Dev Tools</li>
-							<li>Sublime Text</li>
-							<li>Visual Studio Code</li>
-							<li>Brackets</li>
-							<li>Other Tools</li>
-						</ul>
-					</div>
-				</div><!--end of skill_item class-->
-				<div class="skill_item">
-					<img src="img/programming.png" alt="programming icon">
-					<p>Backend Development</p>
-					<p>In backend development, I'am studying PHP programming language. I can write simple CRUD project using php programming. I also understand MySQL database.</p>
-					<ul>
-						<li>Programming Language</li>
-						<li>PHP</li>
-						<li>MYSQL</li>
-					</ul>
-				</div>
-			</div><!--end of scroll_wrapper class-->
-		</div><!-- end of skill_sec class -->
-
-		<!--------------------------EDUCATION SEC-------------------------- -->
-		<div class="education_sec" id="education">
-			<div class="inner">
-				<p class="title">Education & Experience</p>
-
-				<div class="time_line">
-					<div class="list">
-						<div class="time_line_img">
-							<i class="fa fa-graduation-cap" aria-hidden="true"></i>
-						</div><!-- end of time_line_img -->
-						<div class="content">
-							<div class="date">2013 - 2014</div>
-							<p>Basic Education High School</p>
-							<p>High School Certificate (2014)</p>
-							<p>I completed my basic education high school Daik-U Township in Bago Region. I passed the tenth grade in 2013 and 2014.</p>
-						</div><!-- end of content class -->
-					</div><!-- end of list class -->
-
-					<div class="list">
-						<div class="time_line_img">
-							<i class="fa fa-graduation-cap" aria-hidden="true"></i>
-						</div><!-- end of time_line_img -->
-						<div class="content">
-							<div class="date">2015 - 2020</div>
-							<p>Technological University (Mawlamyine)</p>
-							<p>Bachelor of Engineering (Final Year)</p>
-							<p>Around 2015, I started attending Technological University Mawlamyine. I studied IT technical subjects such as programming and networking.</p>
-						</div><!-- end of content class -->
-					</div><!-- end of list class -->
-
-					<div class="list">
-						<div class="time_line_img">
-							<i class="fa fa-line-chart" aria-hidden="true"></i>
-						</div><!-- end of time_line_img -->
-						<div class="content">
-							<div class="date">Oct\2019 - Dec\2019</div>
-							<p>Aquarius Tech Myanmar (Yangon)</p>
-							<p>Web Design & Front-end Web Design (Course)</p>
-							<p>In 2019, I joined two-month web design and frontend web development course at Aquarius Tech Myanmar. I also learned HTML5, CSS3, JavaScript BootStrap to develop UI and for web design using photoshop.</p>
-						</div><!-- end of content class -->
-					</div><!-- end of list class -->
-
-					<div class="list">
-						<div class="time_line_img">
-							<i class="fa fa-briefcase" aria-hidden="true"></i>
-						</div><!-- end of time_line_img -->
-						<div class="content">
-							<div class="date">July\2020 - Aug\2020</div>
-							<p>Spiceworks Myanmar Co., Ltd</p>
-							<p>Two Months Internship</p>
-							<p>In my final year of school, as work experience, I worked two months of internship at Spiceworks Myanmar Company. I worked in the UI development section of the company.</p>
-						</div><!-- end of content class -->
-					</div><!-- end of list class -->
+	<div id="diamond_palace">
 
 
-					<div class="list">
-						<div class="time_line_img">
-							<i class="fa fa-line-chart" aria-hidden="true"></i>
-						</div><!-- end of time_line_img -->
-						<div class="content">
-							<div class="date">Feb\2017 - Jun\2017</div>
-							<p>NANO TECH Computer Training Center (Mawlamyine) </p>
-							<p>Java Programming Course</p>
-							<p>Around 2017, I joined a Java programming course at NANO TECH Computer Training Center for five months. I also learned the Java programming language.</p>
-						</div><!-- end of content class -->
-					</div><!-- end of list class -->
+        <!-- ----------------------MENU BAR------------------------ -->
+        <header class="menu_bar" id="nav">
+            <div class="inner">
+                <div class="toggle_nav_sec" id="myNav">
+                    <div class="logo">
+                        <img src="img/logo.png" alt="">
+                    </div><!-- end of logo class -->
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Gallery</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                    <div class="line"></div><!-- end of x_line class -->
+                </div><!-- end of toggle_nav_sec class -->
 
-					<div class="list">
-						<div class="time_line_img">
-							<i class="fa fa-line-chart" aria-hidden="true"></i>
-						</div><!-- end of time_line_img -->
-						<div class="content">
-							<div class="date">Oct\2015 - Nov\2015</div>
-							<p>Nano Tech Computer Training & Maintenance, Repairing Center</p>
-							<p>Basic Computer System & Hardware Maintenance Course</p>
-							<p>In 2015, I joined the Basic Computer System & Hardware Maintenance Course at Nano Tech Computer Training & Maintenance, Repairing Center for two months.</p>
-						</div><!-- end of content class -->
-					</div><!-- end of list class -->
+                <div class="nav_area">
+                    <div class="logo">
+                        <img src="img/logo.png" alt="">
+                    </div><!-- end of logo class -->
+                    <div class="menu">
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Gallery</a></li>
+                            <li><a href="#">Shop</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div><!-- end of menu classs -->  
+                    <a href="#"  onclick="openNav()"><i class="fa fa-bars" aria-hidden="true"></i></a>
+                </div><!-- end of nav_area class -->
+            </div><!-- end of inner class -->
+        </header><!-- /header -->
 
-				</div><!-- end of time_line class -->
-			</div><!-- end of inner class-->
-		</div><!-- end of education_sec class -->
+		<!-- -------------------------MV SEC------------------------- -->
+		<div class="mv_sec">        
+            <div class="overlay"></div><!-- end of overlay class -->
+            <div class="diagonal"></div><!-- end of diagonal  class -->         
+            <div class="mv_slider" data-zs-src='["img/mv_slider1.jpg", "img/mv_slider2.jpg", "img/mv_slider4.jpg", "img/mv_slider3.jpg"]' data-zs-overlay="dots">
+                <div class="mv_title">
+                    <h1><span>W</span>elcome to</br></h1>
+                    <h2 class="txt_indx"><span>D</span>iamond <span>P</span>alace</h2>
+                </div><!-- end of mv_title class -->
+            </div><!-- end of mv_slider class -->
+            <div id="scroll_sec">
+                <div id="scroll-down">
+                    <a href="#scroll">Scroll</a>
+                </div><!-- end of scroll_down class -->
+            </div><!-- end of scroll_sec class -->
+        </div><!-- end of mv_sec class -->
 
-		<!--------------------------PROJECT SEC-------------------------- -->
-		<div class="project_header" id="project">
-			<div class="inner">
-				<p class="title">Projects</p>
-				<div class="project_item">
-					<div class="project_list">
-						<img src="img/jewellery.jpg" class="pj_img" alt="diamond palace image">
-						<div class="content">
-							<p>Diamond Palace Jewellery Website</p>
-							<a href="https://mgkyawmintun.github.io/diamondpalace">>> go to website <<</a>
-						</div>
-					</div>
-					<div class="project_list">
-						<img src="img/hotel1.png" class="pj_img" alt="Zfreeti Hotel image">
-						<div class="content">
-							<p>Zfreeti Hotel Website</p>
-							<a href="https://mgkyawmintun.github.io/zfreetihotel/">>> go to website <<</a>
-						</div>
-					</div>
-					<div class="project_list">
-						<img src="img/travel-&-tour_01.png" class="pj_img" alt="Travel and Tour image">
-						<div class="content">
-							<p>Travel and Tour Website</p>
-							<a href="https://mgkyawmintun.github.io/travelandtour">>> go to website <<</a>
-						</div>
-					</div>
-
-				</div><!--end of project_item class-->
-				<button type="button" class="pj_btn">
-					<span>View More <span>&nbsp;&nbsp;
-					<i class="fa fa-angle-double-right" aria-hidden="true"></i></span></span> 
-				</button>
-			</div>
-		</div>
-
-
-		<!--------------------------CONTACT SEC-------------------------- -->
-		<div class="contact_sec" id="contact">
-			<div class="inner">
-				<p class="title">Contact me</p>
-				<div class="cont_group">
-					<div class="info">
-						<p>Contact Information</p>
-						<p>Name:&nbsp;Mg Kyaw Min Tun</p>
-						<p>Email:&nbsp;kyawmintun163948@gmail.com</p>
-						<p>Phone:&nbsp;09-794144487</p>
-						<div class="social_media">
-							<a href="https://web.facebook.com/profile.php?id=100012289154309" title=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
-							<a href="https://twitter.com/mr_kyawmin" title=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
-							<a href="https://www.linkedin.com/in/mr-kyawmin-tun-718a631a4/" title=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-						</div>
-					</div><!-- end of info class -->
-					<form method="post" autocomplete="off" name="google-sheet" id="reset">
-						<input type="text" name="name" maxlength="20" placeholder="Your name" required>
-						<input type="email" name="email" maxlength="50" placeholder="Your email" required>
-						<input type="text" name="subject" maxlength="50" placeholder="Subject" required>
-						<textarea name="message" cols="5" rows="5" placeholder="Message" required></textarea>
-						<input type="submit" value="Send message" class="button">
-					</form>
-				</div><!-- end fo cont_group class -->
-			</div><!-- end of inner class -->
-		</div><!-- end of contact_sec class -->
+		<!-- -------------------------SOCIAL SEC------------------------- -->
+        <div class="social_sec"class="right">
+            <ul class="circle">
+                <li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li class="instagram"><a href="#"><i class="fa fa-instagram"></i></a></li>
+                <div class="scroll_line">
+                    <a href="#form">Follow Us</a>
+                </div><!-- end of scroll_line class -->
+            </ul>
+        </div><!-- end of social_sec class -->
 
 
-		<!--------------------------FOOTER SEC-------------------------- -->
+		<!-- -------------------------ABOUT SEC------------------------- -->
+        <div class="about_sec" id="scroll">
+            <div class="about_title">
+                <h3>about us</h3>
+            </div><!-- end of about_title class -->
+            <div class="txt_box">
+                <div class="title">
+                    <h4><span>D</span>iamond<span>P</span>alace</br></h4>
+                    <h5 class="txt_indx"><span>M</span>yanmar</h5>
+                </div><!-- end of title class -->
+                <div class="paragraph">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p></br>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                </div><!-- end paragraph class -->
+                <a href="#">More</a>                
+            </div><!-- end of txt_box class -->
+            <div class="img_box">
+                <img src="img/about_sec_img.jpg" alt="">
+            </div><!-- end of img_box class -->
+        </div><!-- end of about_sec class -->
+
+		<!-- -------------------------INFO SEC------------------------- -->
+        <div class="info_sec">
+            <div class="inner">
+                <div class="info_title">
+                    <h3>Service</h3>
+                    <p>Showroom Now Open Regular Hours</p>
+                </div><!-- end of info_title class -->
+                <div class="sale">
+                    <div class="first_row">
+                        <div class="first_col">
+                            <img src="img/img1.jpg" alt="">
+                            <div class="caption">
+                                <p class="title">Diamond Jewellery</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Esse officiis in laudantium ipsa quam cum dolorum.</p>
+                                <div class="btn">
+                                    <a href="3">Shop Now</a>
+                                </div><!-- end of btn class -->
+                            </div><!-- end of caption class -->
+                        </div><!-- end of first_col class -->
+                        <div class="second_col">
+                            <img src="img/img2.jpg" alt="">
+                        </div><!-- end of second_col class -->
+                    </div><!-- end of first_row class -->
+                    <div class="second_row">
+                        <div class="first_col">
+                            <img src="img/img4.jpg" alt="">
+                        </div><!-- end of first_col class -->
+                        <div class="second_col">
+                            <img src="img/img3.jpg" alt="">
+                        </div><!-- end of second_col class -->
+                    </div><!-- end of second_row class -->
+                </div><!-- end of sale class -->
+                <div class="v_more">
+                    <a href="#">View More</a>
+                </div><!-- end of v_more class -->
+            </div><!-- end of inner class -->
+        </div><!-- end of info_sec class -->
+
+
+		<!-- -------------------------DIAMOND SEC------------------------- -->
+        <div class="diamond_sec">
+            <div class="inner">
+                <div class="diamond_title">
+                    <h3>DIAMON SHAPE</h3>
+                </div><!-- end of diamond_title class -->
+
+                <ul class="diamondShapesList d-flex flex-wrap justify-content-between align-items-center">
+                    <li>
+                        <a href="#" title="Round">
+                            <img src="img/round.png" title="Round"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" title="Princess">
+                            <img src="img/princess.png" title="Princess"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" title="Pear">
+                            <img src="img/pear.png" title="Pear"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" title="Heart">
+                            <img src="img/heart.png" title="Heart"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" title="Emerald">
+                            <img src="img/emerald.png"  title="Emerald"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" title="Asscher">
+                            <img src="img/asscher.png" title="Asscher"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" title="Marquise">
+                            <img src="img/marquise.png" title="Marquise"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" title="Oval">
+                            <img src="img/oval.png" title="Oval"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" title="Radiant">
+                            <img src="img/radiant.png" title="Radiant"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" title="Cushion">
+                            <img src="img/cushion.png" title="Cushion"/>
+                        </a>
+                    </li>
+                </ul>
+            </div><!-- end of inner class -->
+        </div><!-- end of diamond_sec class -->
+
+
+		<!-- -------------------------BESTSELLER SEC------------------------- -->
+        <div class="bestseller_sec">
+            <div class="inner">
+                <div class="bestseller_title">
+                    <h3>best seller</h3>
+                </div><!-- end of bestseller_title class -->
+
+                <div class="product_item">
+                    <div class="item">
+                        <img src="img/item1.jpg" alt="">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                        <div class="item_btn">
+                        	<a href="#">$1200</a>
+                        </div><!-- end of item_btn class -->
+                    </div><!-- end of item class -->
+                    <div class="item">
+                        <img src="img/item2.jpg" alt="">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                        <div class="item_btn">
+                        	<a href="#">$300</a>
+                        </div><!-- end of item_btn class -->
+                    </div><!-- end of item class -->
+                    <div class="item">
+                        <img src="img/item3.jpg" alt="">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                        <div class="item_btn">
+                        	<a href="#">$1000</a>
+                    	</div><!-- end of item_btn class -->
+                    </div><!-- end of item class -->
+                    <div class="item">
+                        <img src="img/item4.jpg" alt="">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                        <div class="item_btn">
+                        	<a href="#">$500</a>
+                        </div><!-- end of item_btn class -->
+                    </div><!-- end of item class -->
+                    <div class="item">
+                        <img src="img/item1.jpg" alt="">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                        <div class="item_btn">
+                        	<a href="#">$1200</a>
+                        </div><!-- end of item_btn class -->
+                    </div><!-- end of item class -->
+                    <div class="item">
+                        <img src="img/item3.jpg" alt="">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                        <div class="item_btn">
+                        	<a href="#">$800</a>
+                        </div><!-- end of item_btn class -->
+                    </div><!-- end of item class -->
+                </div><!-- end of product_item class -->
+            </div><!-- end of inner class -->
+        </div><!-- end of bestseller_sec class -->
+
+
+        <!-- -------------------------SOCIALNEW SEC------------------------- -->
+        <div class="socialnew_sec">
+            <div class="socialnew_title">
+                <h3>social news!</h3>
+            </div><!-- end of socialnew_title class -->
+            <div class="socialnew_img_sec">
+                <div class="social_img">
+                    <img src="img/social_img1.jpg" alt="">
+                </div>
+                <div class="social_img">
+                    <img src="img/social_img2.jpg" alt="">
+                </div>
+                <div class="social_img">
+                    <img src="img/social_img3.jpg" alt="">
+                </div>
+                <div class="social_img">
+                    <img src="img/social_img4.jpg" alt="">
+                </div>
+                <div class="social_img">
+                    <img src="img/social_img5.jpg" alt="">
+                </div>
+            </div><!-- end of socialnew_img class -->
+        </div><!-- end of socialnew_sec class -->
+
+		<!-- -------------------------FORM SEC------------------------- -->
+        <div class="form_sec" id="form">
+            <div class="inner">
+                <h3>Subscribe to receive latest news promotions!</h3>
+                <div class="input_box">
+                    <input type="input" placeholder="Emial Address">
+                    <button type="button">Subscribe</button>
+                </div><!-- end of input_box class -->
+            </div><!-- end of inner class -->
+        </div><!-- end of form_sec class -->
+
+
+		<!-- -------------------------FOOTER SEC------------------------- -->
 		<div class="footer_sec">
 			<div class="inner">
-				<div class="ft_group">
-					<div class="ft_list">
-						<img src="img/location_icon.png" alt="This photo is location icon">
-						<p class="title">Address</p>
-						<p>No (213), PaTaMyarMyay Street, TanTaTar Yap, Daik-U Township, Bago Region, Myanmar</p>
-						<p>KyeeMyinDaing Township, Yangon, Myamar</p>
-					</div><!-- end of ft_list class -->
-					<div class="ft_list">
-						<img src="img/mail_icon.png" alt="This photo is email icon">
-						<p class="title">E-mail</p>
-						<p><a href="mailto:example@email.com">kyawmintun163948@gmail.com</a></p>
-					</div><!-- end of ft_list class -->
-					<div class="ft_list">
-						<img src="img/phone_icon.png" alt="This photo is phone icon">
-						<p class="title">Contact</p>
-						<p>Phone: <a href="tel:+95-979-414-4487">09-794144487</a></p>
-						<p>Phone: <a href="tel:+95-995-262-1314">09-952621314</a></p>
-					</div><!-- end of ft_list class -->
-					<div class="ft_list">
-						<div class="social_media">
-							<div class="icon facebook">
-								<div class="tooltip">
-									Facebook
-								</div><!-- end of tooltip class -->
-								<a href="https://web.facebook.com/profile.php?id=100012289154309"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-							</div>
-							<div class="icon twitter">
-								<div class="tooltip">
-									Twitter
-								</div><!-- end of tooltip class -->
-							 	<a href="https://twitter.com/mr_kyawmin"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-							</div>
-							<div class="icon linkedin">
-								<div class="tooltip">
-									Linkedin
-								</div><!-- end of tooltip class -->
-								<a href="https://www.linkedin.com/in/mr-kyawmin-tun-718a631a4/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-							</div>
-							<div class="icon github">
-								<div class="tooltip">
-									GitHub 
-								</div><!-- end of tooltip class -->
-								<a href="https://github.com/MgKyawMinTun"><i class="fa fa-github" aria-hidden="true"></i></a>
-							</div>
-						</div><!-- end of social_media class -->
-					</div><!-- end of ft_list class -->
-				</div><!-- end of ft_group class -->
-
-				<div class="copyright">
-					<hr class="line">
-					<small>&copy; 2020 My Portfolio. All rights reserved | Designed by KyawMinTun</small>
-				</div><!-- end of copyright class -->
+				<div class="footer_group">
+					<div class="group1">
+						<img src="img/dp_logo.png" alt="">
+					</div><!-- end of group1 class -->
+					<div class="group2">
+						<p>About us</p>
+						<a href="#">Lorem ipsum dolor sit amet</a>
+						<a href="#">Lorem ipsum dolor</a>
+						<a href="#">Lorem ipsum dolor sit</a>
+						<a href="#">Lorem called</a>
+						<a href="#">Lorem ipsum dolor</a>
+						<a href="#">Lorem ipsum dolor sit</a>
+						<a href="#">Lorem called</a>
+					</div><!-- end of group2 class -->
+					<div class="group2">
+						<p>service</p>
+						<a href="#">Lorem ipsum dolor sit amet</a>
+						<a href="#">Lorem ipsum dolor</a>
+						<a href="#">Lorem ipsum dolor sit</a>
+						<a href="#">Lorem called</a>
+						<a href="#">Lorem ipsum dolor</a>
+					</div><!-- end of group2 class -->
+					<div class="group2">
+						<p>Products</p>
+						<a href="#">Lorem ipsum dolor sit</a>
+						<a href="#">Lorem ipsum dolor</a>
+						<a href="#">Lorem ipsum</a>
+					</div><!-- end of group2 class -->
+				</div><!-- end of footer_group class -->
+				<div class="copy_right_group">
+					<div class="x_line"></div><!-- end of x_line class -->
+					<div class="payment_img">
+						<a href="#"><img src="img/visa.png" alt=""></a>
+						<a href="#"><img src="img/discover.png" alt=""></a>
+						<a href="#"><img src="img/master.png" alt=""></a>
+					</div><!-- end of payment_img class -->
+					<p>&copy;Copyright 2020. All Rights Reserved</p>
+				</div><!-- end of copy_right_group class -->
 			</div><!-- end of inner class -->
-			<div class="back_to_top" id="click_btn"></div>
 		</div><!-- end of footer_sec class -->
-	</div><!-- end of portfolio id -->
 
 
-	<script src="js/jquery-1.12.4.min.js"></script>
-	<script type="text/javascript" src="js/app.js"></script>
-	<script type="text/javascript" src="js/script.js"></script>
+	</div><!-- end of diamond_palace id  -->
+<script type="text/javascript" src="common/js/jquery-2.1.3.min.js"></script>
+<script type="text/javascript" src="common/js/modernizr-2.6.2.min.js"></script>
+<script type="text/javascript" src="common/js/jquery.zoomslider.min.js"></script>
+<script type="text/javascript" src="common/js/slick.min.js"></script>
+<script type="text/javascript" src="common/js/common.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
